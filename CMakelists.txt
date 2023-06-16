@@ -1,0 +1,8 @@
+# Set the minimum version of CMake:
+CMAKE_MINIMUM_REQUIRED(VERSION 3.20.0)
+
+# Set the project, for custom building options:
+PROJECT(CMakeTut VERSION 0.1.0)
+
+# Add executables to the project:
+ADD_EXECUTABLE(CMakeTut main.cpp)
